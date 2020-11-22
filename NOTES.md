@@ -16,7 +16,16 @@ TODO:
 ✅ - Impelement getting the status of the board   
 ✅ - Test printing the board with the status  
 ✅ - Implement printing the board with the status  
-- Test initialing the bombs
-- Initialise the bombs
-- Test putting the bomb indicators
-- Put the bomb indicators in place
+✅ - Test initialing the bombs  
+✅ - Initialise the bombs  
+- Test putting the bomb indicators  
+- Put the bomb indicators in place  
+
+## Pomodoro 3  
+✅ - Rename getBoardAsASCII() as it doesn't desribe accurately what it does
+- Updates test for print to check the console
+- Update the print implement to console.log() the result
+- Test calculate the bomb indicactor for a square    
+- Calculate the bomb indicactor for a square  
+- Test putting the bomb indicators in place  
+- Put the bomb indicators in place  

@@ -1,0 +1,2 @@
+- getBoardAsASCII doesn't describe what it does  
+- print doesn't print to the console as expected  

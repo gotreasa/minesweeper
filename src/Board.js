@@ -3,7 +3,7 @@ class Board {
     this.squares = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']];
   }
 
-  getBoard() {
+  getBoardAsASCII() {
     let board = '';
     this.squares.forEach((row) => {
       board += '+-+-+-+\n';
@@ -23,7 +23,7 @@ class Board {
   }
 
   print() {
-    return `${this.getBoard()}\n${this.getStatus()}`;
+    return `${this.getBoardAsASCII()}\n${this.getStatus()}`;
   }
 }
 module.exports = Board;
