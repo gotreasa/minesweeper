@@ -17,5 +17,9 @@ class Board {
   getStatus() {
     return '[Sandbox 3x3] Game created';
   }
+
+  print() {
+    return `${this.getBoard()}\n${this.getStatus()}`;
+  }
 }
 module.exports = Board;
