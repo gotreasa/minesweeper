@@ -13,6 +13,10 @@ class Board {
     return board;
   }
 
+  initialiseBombs(bombs) {
+    this.bombs = bombs;
+  }
+
   // eslint-disable-next-line class-methods-use-this
   getStatus() {
     return '[Sandbox 3x3] Game created';
