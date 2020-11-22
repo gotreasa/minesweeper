@@ -23,8 +23,8 @@ TODO:
 
 ## Pomodoro 3  
 ✅ - Rename getBoardAsASCII() as it doesn't desribe accurately what it does
-- Updates test for print to check the console
-- Update the print implement to console.log() the result
+✅ - Updates test for print to check the console
+✅ - Update the print implement to console.log() the result
 - Test calculate the bomb indicactor for a square    
 - Calculate the bomb indicactor for a square  
 - Test putting the bomb indicators in place  

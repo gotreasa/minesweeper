@@ -23,7 +23,8 @@ class Board {
   }
 
   print() {
-    return `${this.getBoardAsASCII()}\n${this.getStatus()}`;
+    // eslint-disable-next-line no-console
+    console.log(`${this.getBoardAsASCII()}\n${this.getStatus()}`);
   }
 }
 module.exports = Board;

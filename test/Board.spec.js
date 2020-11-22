@@ -6,6 +6,8 @@ const Board = require('../src/Board.js');
 
 describe('Minesweeper starts off with a blank board', () => {
   let board;
+  const mockConsole = jest.spyOn(global.console, 'log');
+  mockConsole.mockImplementation((val) => val);
   beforeEach(() => {
     board = new Board();
   });
@@ -19,7 +21,8 @@ describe('Minesweeper starts off with a blank board', () => {
     expect(board.getStatus()).toEqual(EMPTY_BOARD_STATUS);
   });
   test('should print the board with the status', () => {
-    expect(board.print()).toEqual(EMPTY_BOARD_WITH_STATUS);
+    board.print();
+    expect(mockConsole).toHaveBeenCalledWith(EMPTY_BOARD_WITH_STATUS);
   });
 });
 
