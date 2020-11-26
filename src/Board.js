@@ -19,7 +19,11 @@ class Board {
 
   // eslint-disable-next-line class-methods-use-this
   getStatus() {
-    return '[Sandbox 3x3] Game created';
+    let status = 'Game created';
+    if (this.lastMove === '*') {
+      status = 'Square flagged as bomb.';
+    }
+    return `[Sandbox 3x3] ${status}`;
   }
 
   print() {

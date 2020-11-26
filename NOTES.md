@@ -41,5 +41,5 @@ TODO:
 ✅ - Implement placing a flag on the board  
 ✅ - Test storing the last move  
 ✅ - Implement storing the last move  
-- Test printing the result of the turn  
-- Implement printing the result of the turn  
+✅ - Test printing the result of the turn  
+✅ - Implement printing the result of the turn  
