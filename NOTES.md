@@ -37,8 +37,8 @@ TODO:
 ✅ - Update the implementation of setting the bombs  
 ✅ - Test initialising the player  
 ✅ - Implement the initialisation of the player  
-- Test placing a flag on the board  
-- Implement placing a flag on the board  
+✅ - Test placing a flag on the board  
+✅ - Implement placing a flag on the board  
 - Test storing the last move  
 - Implement storing the last move  
 - Test printing the result of the turn  
