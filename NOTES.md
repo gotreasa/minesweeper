@@ -35,8 +35,8 @@ TODO:
 ## Pomdoro 4  
 ✅ - Update test of initialising the bombs to include the indicators  
 ✅ - Update the implementation of setting the bombs  
-- Test initialising the player  
-- Implement the initialisation of the player  
+✅ - Test initialising the player  
+✅ - Implement the initialisation of the player  
 - Test placing a flag on the board  
 - Implement placing a flag on the board  
 - Test storing the last move  
