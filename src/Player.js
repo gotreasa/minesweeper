@@ -5,6 +5,7 @@ class Player {
 
   placeFlag(x, y) {
     this.board.squares[x][y] = '*';
+    this.board.lastMove = '*';
   }
 }
 

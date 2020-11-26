@@ -10,10 +10,18 @@ describe('Player creation', () => {
 });
 
 describe('Player moves', () => {
+  let board;
+  let player;
+  beforeEach(() => {
+    board = new Board();
+    player = new Player(board);
+  });
   test('expect player to mark a flag with a *', () => {
-    const board = new Board();
-    const player = new Player(board);
     player.placeFlag(1, 1);
     expect(board.squares).toEqual(FLAG_AT_1_1);
+  });
+  test('expect last move to be stored', () => {
+    player.placeFlag(1, 1);
+    expect(board.lastMove).toBe('*');
   });
 });

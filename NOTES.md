@@ -39,7 +39,7 @@ TODO:
 ✅ - Implement the initialisation of the player  
 ✅ - Test placing a flag on the board  
 ✅ - Implement placing a flag on the board  
-- Test storing the last move  
-- Implement storing the last move  
+✅ - Test storing the last move  
+✅ - Implement storing the last move  
 - Test printing the result of the turn  
 - Implement printing the result of the turn  
