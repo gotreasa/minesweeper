@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint --cache --fix",
     "postinstall": "npm run requirements-check",
+    "prepare": "husky install",
     "requirements-check": "node check_node_version.js",
     "start": "node src/minesweeper.js",
     "test:watch": "jest --watchAll --coverage",
